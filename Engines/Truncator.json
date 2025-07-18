@@ -4,7 +4,7 @@
     "source"  : "https://github.com/CommanderKugel/Truncator",
 
     "build" : {
-        "path"      : "",
+        "path"      : "./",
         "compilers" : ["dotnet"],
         "cpuflags"  : [],
         "systems"   : ["Windows", "Linux"]
