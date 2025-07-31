@@ -39,6 +39,13 @@
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8,
             "test_bounds"       : "[0.00, 5.00]"
+        },
+
+        "NonReg" : {
+            "both_options"      : "Threads=1 Hash=16",
+            "both_time_control" : "5.0+0.05",
+            "workload_size"     : 32,
+            "test_bounds"       : "[-10.00, 0.00]"
         }
 
     },
@@ -60,7 +67,7 @@
             "workload_size" : 128
         },
 
-        "40k Nodes" : {
+        "5k Nodes" : {
             "both_options"      : "Threads=1 Hash=16",
             "both_time_control" : "N=5000"
         }
